@@ -37,3 +37,9 @@ The tests were repeated 10 times.
 | Average           | 5 solution steps; 46 visited states   | 5 solution steps; 1217 visited states    | 6 solution steps; 471,350 visited states  |5 solution steps; 888 visited states|6 solution steps; 2,126 visited states|9 solution steps; 28,925 visited states|
 
 For N = [100, 500, 1000] we were not able to find a proper optimization of the algorithm to find the optimal solution in a reasonable amount of time so we tried to use a unitary cost for all (uninformed strategy) the edges and we noticed that, as expected the algorithm was really fast but the solution was not the optimal one in fact we have an exponential increasing of the bloat as we can see from the results reported in the table. A possible approach for further and future implementation could be the pruning of the graph in terms of depth. 
+
+## Sources
+
+- https://github.com/squillero/computational-intelligence/blob/master/2022-23/gx_utils.py
+- https://github.com/squillero/computational-intelligence/blob/master/2022-23/8-puzzle.ipynb
+
